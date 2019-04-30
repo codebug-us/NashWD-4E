@@ -1,0 +1,26 @@
+#container {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+div {
+  border: 1px solid black;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #bad6d3;
+  border-radius: 5px;
+  margin-top: 30px;
+  border: none;
+  box-shadow: 1px 1px 1px 1px gray
+}
+button:hover {
+  color: white;
+  background: #305e59;
+}
